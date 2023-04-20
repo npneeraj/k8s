@@ -5,7 +5,7 @@ Kubernetes Deployment hands-on
 
 curl.exe -LO "https://dl.k8s.io/release/v1.27.0/bin/windows/amd64/kubectl.exe"
 
-2. For Installing MiniKube-
+2. (OPTIONAL) For Installing MiniKube-
 
 New-Item -Path 'c:\' -Name 'minikube' -ItemType Directory -Force
 Invoke-WebRequest -OutFile 'c:\minikube\minikube.exe' -Uri 'https://github.com/kubernetes/minikube/releases/latest/download/minikube-windows-amd64.exe' -UseBasicParsing
